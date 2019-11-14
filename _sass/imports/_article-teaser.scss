@@ -1,12 +1,20 @@
 .article-teaser {
     display: flex;
     align-items: start;
+    justify-content: space-between;
     user-select: none;
     color: black;
     margin-bottom: 2.5rem;
 
     @media screen and (max-width: $tablet) {
         flex-direction: column;
+    }
+
+    .copy {
+        order: 0;
+        @media screen and (max-width: $tablet) {
+            order: 1;
+        }
     }
 
     &:after {
@@ -20,17 +28,19 @@
         max-width: $xxl;
         max-height: $xxl;
         margin: 0 1.5rem 0 0;
+        order: 1;
 
         @media screen and (max-width: $tablet) {
             max-width: 100%;
             max-height: none;
             margin: 0 0 1.5rem 0;
+            order: 0;
         }
     }
 
     .publish-date {
         font-style: italic;
-        color: rgba(0, 0, 0, 0.5);
+        color: rgba(0, 0, 0, 0.6);
         font-size: 12px;
         font-weight: $regular;
         margin: 0;

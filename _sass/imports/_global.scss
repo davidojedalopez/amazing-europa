@@ -11,6 +11,7 @@ html {
 
 body {
     min-height: 100%;
+    background-color: $paper;
 }
 
 html,
@@ -24,7 +25,7 @@ section {
 .wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 848px;
+    max-width: 920px;
     min-height: 100vh;
     padding: 0 $small;
     margin: 0 auto;
