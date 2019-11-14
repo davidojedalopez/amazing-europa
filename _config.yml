@@ -11,6 +11,8 @@ sass:
   precision: 10
 plugins:
   - jekyll-menus
+include:
+  - _redirects.txt
 exclude:
   - Gemfile
   - Gemfile.lock
