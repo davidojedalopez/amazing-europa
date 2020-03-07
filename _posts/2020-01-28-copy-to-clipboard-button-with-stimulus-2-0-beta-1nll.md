@@ -12,7 +12,7 @@ tags:
   - javascript
   - webdev
 canonical_url: >-
-  https://davidojeda.dev/posts/copy-to-clipboard-button-with-stimulus-2-0-beta-1nll/
+  https://dev.to/david_ojeda/copy-to-clipboard-button-with-stimulus-2-0-beta-1nll
 layout: post
 ---
 [**Stimulus**](https://stimulusjs.org/handbook/introduction) is a JavaScript framework developed by a team at [Basecamp](https://basecamp.com/), and it aims to augment your existing HTML so things work without too much "connecting" code.

@@ -25,8 +25,6 @@ layout: post
 ---
 
 
----
-
 # What's AWS IAM?
 AWS **I**dentity and **A**ccess **M**anagement, called **IAM**, is a feature of AWS that allows you to have fine-grained control over who can access any of your AWS resources and to what extent. Also, it's **free**.
 

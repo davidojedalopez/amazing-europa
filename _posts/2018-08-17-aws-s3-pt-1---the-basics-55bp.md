@@ -18,8 +18,6 @@ layout: post
 ---
 
 
----
-
 # What's AWS S3?
 AWS **S**imple **S**torage **S**ervice, called **S3**, is an object storage solution to reliably store and retrieve any amount of data.
 

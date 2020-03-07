@@ -18,9 +18,9 @@ A couple of months ago I decided to commit and study to get an AWS certification
 
 There are tons of things I need to learn and deeply understand, and I think teaching them is the most effective way to learn them.
 
-**Would love any feedback, corrections and/or suggestions on the series' posts!** Also, I'm going to re:Invent 2018 by myself, if anyone wants to hangout there feel free to talk to me!
+**Would love any feedback, corrections and/or suggestions on the series' posts!** Also, I'm going to re:Invent 2018 by myself, if anyone wants to hang out there feel free to talk to me!
 
-Thanks a lot fam! ❤️
+Thanks a lot, fam! ❤️
 
 I will be updating this post whenever I create a new post for the series.
 

@@ -9,12 +9,10 @@ positive_reactions_count: 15
 tags:
   - git
   - ci
-canonical_url: 'https://davidojeda.mx/blog/2017/08/28/gated-commits-with-git'
+canonical_url: 'https://dev.to/david_ojeda/gated-commits-with-git'
 layout: post
 ---
 
-
-_[This post](https://davidojedalopez.github.io/blog/2017/08/28/gated-commits-with-git) is a cross-post from my blog: [https://davidojedalopez.github.io/](https://davidojedalopez.github.io/)_
 
 <p>A gated commit, also called a <strong>pre-tested</strong> commit, is an integration pattern in which a commit is not approved until a set of tests are ran against the code being commited. In other words, the commit does not go through if the test suite fails.</p>
 

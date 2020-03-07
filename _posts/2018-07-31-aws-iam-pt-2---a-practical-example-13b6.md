@@ -23,8 +23,6 @@ layout: post
 ---
 
 
----
-
 On previous post I explained the basics of AMI and described an use case for it. Now, we're going to implement the actual solution for that problem.
 
 As a quick recap, we have four developers that need shared and not shared access to AWS services, and an accountant that has very limited access. Specifically:
