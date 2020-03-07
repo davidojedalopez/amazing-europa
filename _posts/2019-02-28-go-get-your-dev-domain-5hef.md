@@ -5,7 +5,10 @@ excerpt: .dev Top Level Domain (TLD) is now generally available
 thumb_img_path: null
 comments_count: 13
 positive_reactions_count: 14
-tags: []
+tags:
+  - dev
+  - domain
+  - portfolio
 canonical_url: 'https://dev.to/david_ojeda/go-get-your-dev-domain-5hef'
 layout: post
 ---

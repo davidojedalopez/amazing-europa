@@ -1,1 +1,17 @@
-{"author":{"name":"David Ojeda","avatar":"https://res.cloudinary.com/practicaldev/image/fetch/s--b38N-w0O--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/18156/6e360d85-3ca0-41c4-a1e9-58fe52b10202.png"},"social":{"devto":{"username":"david_ojeda"},"twitter":{"username":"DavidOjedaL"},"github":{"username":"davidojedalopez"}}}
+{
+    "author": {
+        "name": "David Ojeda",
+        "avatar": "https://res.cloudinary.com/practicaldev/image/fetch/s--zT9WsPzg--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/18156/6e360d85-3ca0-41c4-a1e9-58fe52b10202.png"
+    },
+    "social": {
+        "devto": {
+            "username": "david_ojeda"
+        },
+        "twitter": {
+            "username": "DavidOjedaL"
+        },
+        "github": {
+            "username": "davidojedalopez"
+        }
+    }
+}

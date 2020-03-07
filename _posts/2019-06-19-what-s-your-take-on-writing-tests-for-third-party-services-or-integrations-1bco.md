@@ -3,9 +3,11 @@ title: What's your take on writing tests for third-party services or integration
 date: '2019-06-19T01:08:33.818Z'
 excerpt: ''
 thumb_img_path: null
-comments_count: 5
+comments_count: 7
 positive_reactions_count: 8
-tags: []
+tags:
+  - discuss
+  - testing
 canonical_url: >-
   https://dev.to/david_ojeda/what-s-your-take-on-writing-tests-for-third-party-services-or-integrations-1bco
 layout: post

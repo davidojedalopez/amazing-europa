@@ -5,7 +5,9 @@ excerpt: The use of discouraging words
 thumb_img_path: null
 comments_count: 3
 positive_reactions_count: 13
-tags: []
+tags:
+  - beginners
+  - tips
 canonical_url: 'https://davidojeda.mx/blog/2018/08/17/obviously-simple'
 layout: post
 ---

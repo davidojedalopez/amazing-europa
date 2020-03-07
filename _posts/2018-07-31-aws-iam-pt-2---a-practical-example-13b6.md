@@ -5,7 +5,9 @@ excerpt: Use case solution for AWS Identity Access Management (IAM)
 thumb_img_path: null
 comments_count: 2
 positive_reactions_count: 25
-tags: []
+tags:
+  - aws
+  - iam
 canonical_url: 'https://davidojeda.mx/blog/2018/07/30/aws-iam-pt2-a-practical-example'
 layout: post
 ---
@@ -149,7 +151,7 @@ Go to next step, name your policy, add an useful description and finish the poli
 **TIP**: You can use the [AWS Policy Simuator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) to test your policies and verify they only provide access to the resources they need to.
 
 ### Use custom policy
-You now have your accountant custom policy with S3 read-only access. Last thing you need to do to solve the stated problem is to create your accountant group and user, and tie them together. You can do that with the knowledge acquired so far ����
+You now have your accountant custom policy with S3 read-only access. Last thing you need to do to solve the stated problem is to create your accountant group and user, and tie them together. You can do that with the knowledge acquired so far 😉
 
 # Wrap-up
 So far you have created four groups- three for developers and one for your accountant. Also, you created a user for each of your employees and added them to the adequate group according to their job needs.

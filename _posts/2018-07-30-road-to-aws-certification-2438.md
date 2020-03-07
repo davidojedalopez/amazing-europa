@@ -4,8 +4,9 @@ date: '2018-07-30T20:56:34.840Z'
 excerpt: Entry post for series of posts about AWS
 thumb_img_path: null
 comments_count: 11
-positive_reactions_count: 62
-tags: []
+positive_reactions_count: 66
+tags:
+  - aws
 canonical_url: 'https://davidojeda.mx/blog/2018/07/29/road-to-aws-certification'
 layout: post
 ---

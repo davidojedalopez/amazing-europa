@@ -4,8 +4,10 @@ date: '2018-07-30T20:54:01.064Z'
 excerpt: Basic concepts of AWS Identity Access Management (IAM)
 thumb_img_path: null
 comments_count: 0
-positive_reactions_count: 38
-tags: []
+positive_reactions_count: 39
+tags:
+  - aws
+  - iam
 canonical_url: 'https://davidojeda.mx/blog/2018/07/29/aws-iam-pt1-the-basics'
 layout: post
 ---

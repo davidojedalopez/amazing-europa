@@ -6,8 +6,10 @@ excerpt: >-
   an example
 thumb_img_path: null
 comments_count: 0
-positive_reactions_count: 33
-tags: []
+positive_reactions_count: 34
+tags:
+  - outage
+  - communication
 canonical_url: 'https://davidojeda.mx/blog/2018/11/09/on-handling-outages-a-case-study'
 layout: post
 ---

@@ -2,16 +2,16 @@
 title: How to Find Ghost CSS Elements
 date: '2018-05-11T16:14:30.939Z'
 excerpt: CSS styles to help you find ghost or invisible spacing on your HTML
-thumb_img_path: null
+thumb_img_path: >-
+  https://res.cloudinary.com/practicaldev/image/fetch/s--TM8JhiDk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/6jddl1p3v9j2tl4ugjm6.png
 comments_count: 2
-positive_reactions_count: 62
-tags: []
+positive_reactions_count: 63
+tags:
+  - css
+  - html
 canonical_url: 'https://davidojeda.mx/blog/2018/05/11/find-ghost-css-elements'
 layout: post
 ---
-
-
-_[This post](https://davidojeda.mx/blog/2018/05/11/find-ghost-css-elements) is a cross-post from my blog: [davidojeda.mx](https://davidojeda.mx/blog/)._
 
 
 I recently came across a bug on our landing page which caused a weird blank space overflow on the right side:

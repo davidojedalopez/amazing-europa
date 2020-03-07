@@ -5,7 +5,10 @@ excerpt: Make requests from Docker container running on Jenkins
 thumb_img_path: null
 comments_count: 0
 positive_reactions_count: 14
-tags: []
+tags:
+  - docker
+  - jenkins
+  - iptables
 canonical_url: >-
   https://davidojeda.mx/blog/2018/05/25/make-requests-from-docker-container-running-on-jenkins
 layout: post

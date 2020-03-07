@@ -4,9 +4,10 @@ date: '2019-08-20T23:42:54.774Z'
 excerpt: ''
 thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s--Kl63rBon--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--wSV-PmRl--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/y32lpgvd0qmb1h6oicb7.png
-comments_count: 14
+comments_count: 15
 positive_reactions_count: 73
-tags: []
+tags:
+  - privacy
 canonical_url: 'https://dev.to/david_ojeda/my-privacy-setup-3k49'
 layout: post
 ---

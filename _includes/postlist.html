@@ -1,21 +1,39 @@
 <!-- Posts -->
 <section id="{{ include.section.section_id }}" class="posts">
 
-    <h1 class="posts-title">My posts</h1>
-
     {% assign display_posts = '/posts' | get_pages %}
     {% assign arr = display_posts | sort: 'date' | reverse %}
-    {% for post in arr %}
-    <a href="{{ post.url | relative_url }}" class="article-teaser">        
-        <div class="copy">
-            <h2>{{ post.title }}</h2>
-            <h3 class="publish-date">Published on {{ post.date | date: '%B %d, %Y' }}</h3>
 
-            <p class="summary">{{ post.excerpt }}</p>
-            <div class="text-link">Read more</div>
-        </div>
-        {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}{% if thumb_img_path_is_not_empty %}<img class="thumbnail" src="{{ post.thumb_img_path | relative_url }}"
-                                       alt="{{ post.title }}"/>{% endif %}
-    </a>
+    <h1 class="posts-title">
+        My posts ({{ arr.size }})
+    </h1>
+    
+    {% for post in arr %}        
+        <a href="{{ post.canonical_url | relative_url }}" class="article-teaser" target="_blank">        
+            <div class="copy">
+                <h2>{{ post.title }}</h2>                
+                
+                <h3 class="publish-date">
+                    Published on {{ post.date | date: '%B %d, %Y' }}                    
+                </h3>                
+                
+                <p class="summary">{{ post.excerpt }}</p>
+
+                <span class="post-stats post-reactions">{{ post.positive_reactions_count }} 🧡</span>
+                <span class="post-stats post-comments">{{ post.comments_count }} 💬</span>
+                
+                <span class="tags-container">
+                    <span class="tags">
+                        {% for tag in post.tags %}
+                            <span class="tag {{ tag }}">#{{ tag }}</span>
+                        {% endfor %}
+                    </span>
+                </span>                
+            </div>
+            {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
+            {% if thumb_img_path_is_not_empty %}
+                <img class="thumbnail" src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}"/>
+            {% endif %}
+        </a>
     {% endfor %}
 </section>

@@ -4,8 +4,10 @@ date: '2018-08-17T21:03:06.267Z'
 excerpt: Basic concepts of AWS Simple Storage Service (S3)
 thumb_img_path: null
 comments_count: 0
-positive_reactions_count: 26
-tags: []
+positive_reactions_count: 29
+tags:
+  - aws
+  - s3
 canonical_url: 'https://davidojeda.mx/blog/2018/08/17/aws-s3-pt1-the-basics'
 layout: post
 ---

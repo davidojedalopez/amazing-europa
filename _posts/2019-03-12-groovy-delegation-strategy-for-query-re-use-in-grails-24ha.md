@@ -5,7 +5,10 @@ excerpt: One way to re-use criteria queries using Groovy closures' delegates in 
 thumb_img_path: null
 comments_count: 3
 positive_reactions_count: 4
-tags: []
+tags:
+  - groovy
+  - grails
+  - hibernate
 canonical_url: >-
   https://davidojeda.mx/blog/2019/03/12/groovy-delegation-strategy-for-query-re-use-in-grails
 layout: post

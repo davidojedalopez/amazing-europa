@@ -6,7 +6,9 @@ thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s--OL8tZY_T--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/k7kh73gxuasnrsig9wiu.png
 comments_count: 3
 positive_reactions_count: 15
-tags: []
+tags:
+  - git
+  - ci
 canonical_url: 'https://davidojeda.mx/blog/2017/08/28/gated-commits-with-git'
 layout: post
 ---

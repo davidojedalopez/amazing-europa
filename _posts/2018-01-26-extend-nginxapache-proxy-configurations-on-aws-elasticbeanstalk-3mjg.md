@@ -8,7 +8,11 @@ thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s--m9Atdxe4--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/8ndsgtt91bqudopf8m7o.png
 comments_count: 0
 positive_reactions_count: 11
-tags: []
+tags:
+  - aws
+  - elasticbeanstalk
+  - proxy
+  - ebextensions
 canonical_url: >-
   https://davidojedalopez.github.io/blog/2018/01/11/extend-nginx-config-on-aws-elasticbeanstalk
 layout: post

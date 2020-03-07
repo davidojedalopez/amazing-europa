@@ -5,7 +5,8 @@ excerpt: My introduction post
 thumb_img_path: null
 comments_count: 1
 positive_reactions_count: 8
-tags: []
+tags:
+  - introductions
 canonical_url: 'https://dev.to/david_ojeda/hi-im-david-ojeda'
 layout: post
 ---
