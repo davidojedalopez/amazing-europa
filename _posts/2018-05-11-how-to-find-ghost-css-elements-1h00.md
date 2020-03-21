@@ -9,7 +9,7 @@ positive_reactions_count: 63
 tags:
   - css
   - html
-canonical_url: 'https://davidojeda.mx/blog/2018/05/11/find-ghost-css-elements'
+canonical_url: 'https://dev.to/david_ojeda/how-to-find-ghost-css-elements-1h00'
 layout: post
 ---
 

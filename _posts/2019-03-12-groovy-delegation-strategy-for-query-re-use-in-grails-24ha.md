@@ -10,7 +10,7 @@ tags:
   - grails
   - hibernate
 canonical_url: >-
-  https://davidojeda.mx/blog/2019/03/12/groovy-delegation-strategy-for-query-re-use-in-grails
+  https://dev.to/handy/groovy-delegation-strategy-for-query-re-use-in-grails-24ha
 layout: post
 ---
 

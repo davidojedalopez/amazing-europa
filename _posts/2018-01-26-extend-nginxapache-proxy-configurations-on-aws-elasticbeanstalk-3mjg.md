@@ -12,14 +12,11 @@ tags:
   - aws
   - elasticbeanstalk
   - proxy
-  - ebextensions
 canonical_url: >-
-  https://davidojedalopez.github.io/blog/2018/01/11/extend-nginx-config-on-aws-elasticbeanstalk
+  https://dev.to/david_ojeda/extend-nginxapache-proxy-configurations-on-aws-elasticbeanstalk-3mjg
 layout: post
 ---
 
-
-_[This post](https://davidojeda.mx/blog/2018/01/11/extend-nginx-config-on-aws-elasticbeanstalk) is a cross-post from my blog: [https://davidojeda.mx](https://davidojeda.mx/blog/)._
 
 <p>AWS ElasticBeanstalk applications use either an nginx or Apache proxy to relay requests. Using the .ebextensions feature of ElasticBeanstalk we can extend the configuration of these proxies. If you don't know how .ebextensions work you can read more <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ebextensions.html">here.</a></p>
 

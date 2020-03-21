@@ -10,7 +10,7 @@ positive_reactions_count: 34
 tags:
   - outage
   - communication
-canonical_url: 'https://davidojeda.mx/blog/2018/11/09/on-handling-outages-a-case-study'
+canonical_url: 'https://dev.to/david_ojeda/on-handling-outages-a-case-study-59cb'
 layout: post
 ---
 

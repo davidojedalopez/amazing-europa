@@ -10,7 +10,8 @@ $bold: 500;
 $bolder: 600;
 
 // fonts
-$roboto: 'Roboto', sans-serif;
+// $roboto: 'Roboto', sans-serif;
+$roboto: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
 // sizing
 $micro: 8px;
@@ -23,6 +24,6 @@ $xxl: 270px;
 $xxxl: 310px;
 
 // responsive breakpoints
-$mobile: 480px;
-$tabletMax: 768px;
+// $mobile: 480px;
+$mobile: 580px;
 $tablet: 768px;

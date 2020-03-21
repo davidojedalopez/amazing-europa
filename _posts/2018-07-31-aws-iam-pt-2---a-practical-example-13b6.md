@@ -8,7 +8,7 @@ positive_reactions_count: 25
 tags:
   - aws
   - iam
-canonical_url: 'https://davidojeda.mx/blog/2018/07/30/aws-iam-pt2-a-practical-example'
+canonical_url: 'https://dev.to/david_ojeda/aws-iam-pt-2---a-practical-example-13b6'
 layout: post
 ---
 

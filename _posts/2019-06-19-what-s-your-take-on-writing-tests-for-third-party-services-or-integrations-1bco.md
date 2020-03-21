@@ -1,7 +1,9 @@
 ---
 title: What's your take on writing tests for third-party services or integrations?
 date: '2019-06-19T01:08:33.818Z'
-excerpt: ''
+excerpt: >-
+  Let's say you have an application that uses Stripe.  Stripe gives you a dev
+  environment- own API key,...
 thumb_img_path: null
 comments_count: 7
 positive_reactions_count: 8

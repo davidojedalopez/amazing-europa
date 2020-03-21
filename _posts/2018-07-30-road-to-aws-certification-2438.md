@@ -7,7 +7,7 @@ comments_count: 11
 positive_reactions_count: 66
 tags:
   - aws
-canonical_url: 'https://davidojeda.mx/blog/2018/07/29/road-to-aws-certification'
+canonical_url: 'https://dev.to/david_ojeda/road-to-aws-certification-2438'
 layout: post
 ---
 

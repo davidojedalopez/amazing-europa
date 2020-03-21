@@ -1,0 +1,30 @@
+h2 {
+  font-weight: bold;
+}
+
+.photos-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.social-links {
+  ul {
+    list-style: none;
+  }
+
+  .social-link {
+    display: flex;
+    text-decoration: none;
+    padding: 1rem;
+
+    img {
+      width: 10%;
+    }
+
+    &:hover {
+      background-color: $gray;
+    }
+  }
+}

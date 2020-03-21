@@ -10,12 +10,9 @@ tags:
   - jenkins
   - iptables
 canonical_url: >-
-  https://davidojeda.mx/blog/2018/05/25/make-requests-from-docker-container-running-on-jenkins
+  https://dev.to/david_ojeda/make-requests-from-docker-container-running-on-jenkins-3ln1
 layout: post
 ---
-
-
-_[This post](https://davidojeda.mx/blog/2018/05/25/make-requests-from-docker-container-running-on-jenkins) is a cross-post from my blog: [davidojeda.mx](https://davidojeda.mx/blog/)._
 
 
 This post is about a specific problem I encountered where I **couldn't make any requests from my Docker container to the outside world**. It was my first time working with Jenkins Pipelines and decided to use Docker as my isolation agent.

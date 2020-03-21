@@ -8,7 +8,7 @@ positive_reactions_count: 13
 tags:
   - beginners
   - tips
-canonical_url: 'https://davidojeda.mx/blog/2018/08/17/obviously-simple'
+canonical_url: 'https://dev.to/david_ojeda/its-obviously-simple-2n8a'
 layout: post
 ---
 

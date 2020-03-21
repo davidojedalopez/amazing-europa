@@ -8,7 +8,7 @@ positive_reactions_count: 39
 tags:
   - aws
   - iam
-canonical_url: 'https://davidojeda.mx/blog/2018/07/29/aws-iam-pt1-the-basics'
+canonical_url: 'https://dev.to/david_ojeda/aws-iam-pt-1---the-basics-139h'
 layout: post
 ---
 

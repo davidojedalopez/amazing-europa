@@ -14,6 +14,7 @@
         order: 0;
         @media screen and (max-width: $tablet) {
             order: 1;
+            align-self: flex-start;
         }
     }
 
@@ -59,18 +60,28 @@
 
     .post-stats {
         font-size: 1.6em;
-        margin-left: 1rem;
+        display: inline;
+        
+        .post-reactions {
+            margin-right: 1rem;
+        }
     }
 
     .tags-container {
-        position: relative;
+        position: relative;    
     }
 
     .tags {        
         margin-left: 1rem;
         position: absolute;
         display: inline-flex;
-        font-size: 1.1em;
+        font-size: 1em;
+
+        @media screen and (max-width: $mobile) {
+            display: flex;
+            padding-top: .5rem;
+            margin-left: 0;
+        }
     }
 
     .tag {
@@ -80,6 +91,9 @@
         border-radius: .3rem;
         font-weight: $bolder;
         font-size: 1.1em;
+
+        background-color: #C0C0C0;
+        color: #453737;
 
         &.discuss {
             background-color: #373737;
@@ -166,12 +180,6 @@
         &.stimulus {
             background-color: #D8C5A6;
             color: #453C3C;
-        }
-
-        &.communication, 
-        &.portfolio {
-            background-color: #C0C0C0;
-            color: #453737;
         }
     }
 }

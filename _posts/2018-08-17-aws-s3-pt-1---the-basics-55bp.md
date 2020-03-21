@@ -8,7 +8,7 @@ positive_reactions_count: 29
 tags:
   - aws
   - s3
-canonical_url: 'https://davidojeda.mx/blog/2018/08/17/aws-s3-pt1-the-basics'
+canonical_url: 'https://dev.to/david_ojeda/aws-s3-pt-1---the-basics-55bp'
 layout: post
 ---
 

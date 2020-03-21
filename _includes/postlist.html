@@ -19,8 +19,10 @@
                 
                 <p class="summary">{{ post.excerpt }}</p>
 
-                <span class="post-stats post-reactions">{{ post.positive_reactions_count }} 🧡</span>
-                <span class="post-stats post-comments">{{ post.comments_count }} 💬</span>
+                <div class="post-stats">
+                    <span class="post-reactions">{{ post.positive_reactions_count }} 🧡</span>
+                    <span class="post-comments">{{ post.comments_count }} 💬</span>
+                </div>                
                 
                 <span class="tags-container">
                     <span class="tags">

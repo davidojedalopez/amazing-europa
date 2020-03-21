@@ -6,7 +6,7 @@ excerpt: >-
   aims to augment your exist...
 thumb_img_path: null
 comments_count: 0
-positive_reactions_count: 18
+positive_reactions_count: 19
 tags:
   - stimulus
   - javascript
