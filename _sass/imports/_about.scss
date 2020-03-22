@@ -1,0 +1,141 @@
+section:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.hi-human {
+  font-size: 1.5em;
+
+  p {
+    margin-bottom: 0;
+    font-size: .9em;
+  }
+  h1 {
+    font-size: 2.8em;
+  }
+}
+
+.this-is-a-human {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .look-its-a-me {
+    width: 30%;    
+  }  
+}
+
+.these-are-dogs {
+  display: flex;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .internet-dogs {    
+    img {
+      width: 30%;
+    }
+  }
+
+  .my-dog💚 {    
+    img {
+      width: 60%;
+    }
+  }
+
+  .internet-dogs, .my-dog💚 {
+    text-align: center;
+    width: 100%;
+  }  
+}
+
+.enough-of-dogs {
+  max-width: 75%;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 100%;
+  }
+
+  p, ul {
+    font-size: 1.2em;
+  }
+  ul {
+    column-count: 4;
+    padding-left: 1rem;
+  }
+}
+
+.social-thinghies {
+  display: flex;
+
+  @media screen and (max-width: $mobile) {
+    flex-direction: column;
+  }
+
+  .last-image-of-my-dog-I-promise {
+    padding-right: 3rem;
+    p {
+      font-size: 2em;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  .now-to-the-links {
+    ul {
+      list-style: none;
+      padding-left: 0;      
+      
+      li svg {
+        width: 10%;
+      }
+    }
+  }
+
+  .the-actual-link {
+    display: flex;
+    align-items: center;             
+        
+    &:hover .social-rambling {      
+      color: whitesmoke;      
+  
+      &.twitter {        
+        background: linear-gradient(to right, rgb(120,210,250) 65%, $paper);                        
+      }
+
+      &.dev {
+        background: linear-gradient(to right, black 65%, $paper);                
+      }
+      
+      &.linkedin {
+        background: linear-gradient(to right, rgb(0,116,179) 65%, $paper);                        
+      }
+
+      &.github {
+        background: linear-gradient(to right, rgb(33,33,33) 65%, $paper);        
+      }
+
+      &.instagram {
+        background: linear-gradient(to right, rgb(230,140,190) 65%, $paper); 
+      }
+
+    }
+
+    .social-rambling {
+      margin-left: 1rem;
+      padding: .6rem;
+      width: 100%;
+      border-radius: .3rem;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}

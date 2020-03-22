@@ -54,11 +54,7 @@ p {
     font-weight: $light;
 }
 
-ul {
-    list-style-type: square;
-    margin: 1rem 0;
-    padding: 0 0 0 2.5rem;
-    font-weight: $light;
+ul {  
 }
 
 ol {
@@ -67,10 +63,8 @@ ol {
 }
 
 li {
-    line-height: 1.55rem;
-
     &:not(:last-child) {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 }
 

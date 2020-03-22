@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Posts
 sections:
   - title: Text
     section_id: intro
@@ -15,7 +15,7 @@ sections:
     component: text_image_block.html
 menus:
   main:
-    title: Home
+    title: Posts
     weight: 1
 layout: home
 ---
